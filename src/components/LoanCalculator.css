@@ -1,0 +1,89 @@
+.container {
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border: 2px solid #007bff;
+  max-width: 500px;
+  margin: auto;
+  background-color: aliceblue;
+  width: 900px;
+}
+.header{
+  padding: 3px;
+  width: 100%;
+  color:#007bff;
+  ;
+  border-radius: 3px;
+  font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+.form-group {
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  /* border: 1px ; */
+  margin: 3px;
+}
+
+.form-control,
+.form-control-range {
+  width: 100%;
+  box-sizing: border-box;
+  border: 2px solid #007bff;
+  color:#007bff;
+  border-radius: 4px;
+  padding: 10px;
+}
+
+.form-control-range {
+  background-color: transparent;
+  padding: 0;
+  height: 8px;
+  cursor: pointer;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+h3 {
+  margin-top: 20px;
+}
+
+p {
+  margin: 0;
+  font-size: 1.1em;
+}
+
+.logo-container {
+  text-align: center; /* Center the logo */
+  margin-bottom: 10px; /* Space below the logo */
+}
+
+.logo {
+  max-width: 200px;
+  height: 200px;
+  padding: 0;
+ /* background-color: #007bff; */
+}
+.result{
+  font-weight: bolder;
+  font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+
+}
+
+.footer {
+  padding: 10px;
+  border-top: 2px solid #ced4da;
+  text-align: center;
+  color: #343a40;
+  border-top: 1px solid #e9ecef;
+}
+
