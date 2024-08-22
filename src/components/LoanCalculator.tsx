@@ -59,7 +59,7 @@ function LoanCalculator() {
         />
       </div>
 
-      <div className="form-group">
+      {/* <div className="form-group">
         <label>Net Salary: GMD {netSalary}</label>
         <input
           type="number"
@@ -68,9 +68,9 @@ function LoanCalculator() {
           className="form-control"
           min="0"
         />
-      </div>
+      </div> */}
 
-      <div className="form-group">
+      {/* <div className="form-group">
         <label>Basic Salary: GMD {basicSalary}</label>
         <input
           type="number"
@@ -79,7 +79,7 @@ function LoanCalculator() {
           className="form-control"
           min="0"
         />
-      </div>
+      </div> */}
 
       <div className="form-group">
         <label>Loan Amount: GMD {loanAmount}</label>
@@ -109,9 +109,12 @@ function LoanCalculator() {
 
       <h3 className='header'>Results</h3>
       <div className='result'>
-        <p>Monthly Payment: GMD {monthlyPayment}</p>
-        <p>Total Interest: GMD {totalInterest}</p>
-        <p>Total Payment: GMD {totalPayment}</p>
+        <p>Loan Amount: <span className='result-value'>GMD {loanAmount}</span></p>
+        <p>Monthly Payment:  <span className='result-value'>GMD {monthlyPayment}</span></p>
+        <p>Total Interest: <span className='result-value'>GMD {totalInterest}</span></p>
+        <p>Total Payment: <span className='result-value'>GMD {totalPayment}</span></p>
+        <p>Loan Term: <span className='result-value'>{Math.floor(loanTerm / 12)} years {loanTerm % 12} months</span></p>
+        <p>Interest Rate: <span className='result-value'>{interestRate}%</span></p>
       </div>
     </div>
   );

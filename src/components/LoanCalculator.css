@@ -19,7 +19,7 @@
 }
 
 .form-group {
-  padding: 15px;
+  padding: 5px;
   border-radius: 8px;
   margin-bottom: 20px;
   /* border: 1px ; */
@@ -76,9 +76,23 @@ p {
 .result{
   font-weight: bolder;
   font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+  text-align: left;
+  display: flex;
+  flex-direction: column; 
+  gap: 1em
 
 }
+.result .result-value {
+  margin-left: 0.5em;
+  padding-left: 5em;
 
+}
+.result p {
+  display: flex;
+  align-items: center; 
+  justify-content: space-between;
+  align-items: center;
+}
 .footer {
   padding: 10px;
   border-top: 2px solid #ced4da;
